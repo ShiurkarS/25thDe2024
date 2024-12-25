@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-25T13:11:17 IST" name="Suite" finished-at="2024-12-25T13:11:33 IST" duration-ms="15709">
+    <groups>
+    </groups>
+    <test started-at="2024-12-25T13:11:17 IST" name="Test" finished-at="2024-12-25T13:11:33 IST" duration-ms="15709">
+      <class name="logintest.page5">
+        <test-method is-config="true" signature="openbrowserpage()[pri:0, instance:logintest.page5@663c9e7a]" started-at="2024-12-25T13:11:17 IST" name="openbrowserpage" finished-at="2024-12-25T13:11:24 IST" duration-ms="6408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowserpage -->
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:logintest.page5@663c9e7a]" started-at="2024-12-25T13:11:24 IST" name="loginpage" finished-at="2024-12-25T13:11:27 IST" duration-ms="3317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method signature="mainpage()[pri:0, instance:logintest.page5@663c9e7a]" started-at="2024-12-25T13:11:27 IST" name="mainpage" finished-at="2024-12-25T13:11:31 IST" duration-ms="3660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainpage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:logintest.page5@663c9e7a]" started-at="2024-12-25T13:11:31 IST" name="logout" finished-at="2024-12-25T13:11:33 IST" duration-ms="2084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mainpage status=SUCCESS method=page5.mainpage()[pri:0, instance:logintest.page5@663c9e7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:logintest.page5@663c9e7a]" started-at="2024-12-25T13:11:33 IST" name="quitbrowser" finished-at="2024-12-25T13:11:33 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- logintest.page5 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
